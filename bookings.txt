@@ -1,0 +1,50 @@
+qer
+qwer@q.com
+0212341234
+movie: Mickey & the Roadster Racers
+session: Thursday, 6pm
+seats:
+	Standard (Full): 7
+	Standard (Child): 5
+asdfdfdfdf
+asdf@q.com
+0241231234
+movie: the Big Sick
+session: Friday, 1pm
+seats:
+	Standard (Full): 5
+	Beanbag (Adult): 4
+''''
+qwerqwer@q.com
+0212341234
+movie: the Big Sick
+session: Friday, 1pm
+seats:
+	Standard (Full): 5
+	Beanbag (Adult): 4
+''''
+qwerqwer@q.com
+0212341234
+movie: Mickey & the Roadster Racers
+session: Wednesday, 6pm
+seats:
+	Standard (Full): 7
+	First Class (Child): 6
+	Beanbag (Family): 5
+wwwefwef
+qwererr@qq.com
+0212341234
+movie: Whisper of the Heart
+session: Sunday, 3pm
+seats:
+	Standard (Concession): 4
+	Beanbag (Family): 5
+	Beanbag (Child): 5
+wwwefwef
+qwererr@qq.com
+0212341234
+movie: the Big Sick
+session: Friday, 1pm
+seats:
+	Beanbag (Adult): 6
+	Beanbag (Family): 6

@@ -1,0 +1,338 @@
+body {
+	color: rgb(85, 85, 85);
+	color: rgba(85, 85, 85, 1);
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0.1em;
+	word-spacing: 0.12em;
+	line-height: 110%;
+    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
+	border: double rgba(97, 97, 97, 0.72) 2px;
+	box-shadow: inset 2px 2px 60px rgba(85, 85, 85, 0.87);
+	position: relative;
+}
+/* Original CSS code sourced and adapted for educational purposes: 
+	https://css-tricks.com/snippets/css/transparent-background-images/ */
+body::after {
+  content: "";
+  /* Original image below sourced for educational purposes: http://www.lanrentuku.com/bg/a/grey_4.html*/
+  background: url(../img/background.png);
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+p {
+	padding-bottom: 8px;
+}
+
+div.container {
+	padding-top: 10px;
+}
+
+div h2 {
+	padding-bottom: 30px;
+}
+
+main div:first-child{
+	padding-top: 30px;
+}
+
+.buttons {
+	display:block;
+	border-radius:4px;
+	margin:auto;
+	color: white;
+	font-size:140%;
+	width: 40%;
+	padding: .5em;
+	border:0;
+	background-color:rgba(13, 13, 13, 0.8);
+}
+
+nav {
+	border-radius: 7px;
+	background-color: rgba(13, 13, 13, 0.8);
+	text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+	font-size: 120%;
+}
+
+nav ul li {
+	display: inline-block;	
+}
+
+nav ul li a {
+	display: inline-block;
+    text-align: left;
+	padding: 8px;
+}
+
+nav a:link, nav a:visited {
+	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255, 0.7);
+}
+
+nav a:hover, nav a:active, .buttons:hover { 
+	background-color: rgba(13, 13, 13, 1);
+	box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.8);
+
+	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255, 0.93);
+}
+
+.homepage_img {
+	border-radius: 100%;
+	filter: drop-shadow( 0px 0px 9px black);
+	width: 75%;
+	height: 80%;
+	margin: auto;
+	display: block;
+}
+
+#seating_img {
+	padding-top: 3em;
+	display: block;
+	margin: auto;
+	padding-bottom: 3em;
+	width: 45%;
+	height: auto;
+}
+
+#seats {
+	padding-top: 1em;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 400%;
+	text-decoration: none;
+	letter-spacing: 0.2em;
+	text-shadow: 2px 1px 2px rgba(97, 97, 97, 0.75);
+}
+
+h2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 200%;
+	text-decoration: none;
+	letter-spacing: 0.16em;
+	clear: both;
+	text-shadow: 1px 1px 1px rgba(84, 84, 84, 0.66);
+}
+
+h3 {
+	color: rgba(85, 85, 85, 0.8);
+}
+
+a {
+	text-decoration: none;
+	font-size: 120%;
+}
+
+a:link, a:visited {
+	color: rgb(90, 86, 63);
+	color: rgba(90, 86, 63, 0.7);
+}
+
+a:hover, a:active { 
+	color: rgb(55, 55, 55);
+	color: rgba(55, 55, 55, 1);
+}
+
+main ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+figure {
+	display: inline-block;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+figure:hover {
+	box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-width: 1px;
+	border-top-style: solid;
+	font-size: 80%;
+}
+
+.movie_img {
+	display:inline-block;
+	width:100%;
+	height:auto;
+}
+
+table {	
+	display:inline-table;
+	width:60%;
+	border-spacing: 3px;
+	border-collapse: collapse;
+	margin:1em auto;
+}
+
+#seating_plan th, #seating_plan td, #schedule th, #schedule td, .bookings th, .bookings td {
+	border-top: 1px solid rgba(90, 86, 63, 0.7);
+	border-bottom: 1px solid rgba(90, 86, 63, 0.7);
+	text-align: center;
+	font-size: 1.1em;
+	padding: 0.6em 2.3em;
+	background-color: rgba(190, 188, 187, .1);
+	margin: auto;
+}
+
+#seating_plan th, #schedule th, .bookings th {
+	border-bottom: 3px solid rgba(90, 86, 63, 1);
+	background-color: rgba(190, 188, 187, .5);
+}
+
+.bookings th, .bookings td {
+	text-align: left;
+}
+
+table.price th, table.price td {
+	border-top: 1px solid rgba(90, 86, 63, 0.7);
+	border-bottom: 1px solid rgba(90, 86, 63, 0.7);
+	text-align: center;
+	padding:10px;
+	background-color: rgba(190, 188, 187, .1);
+}
+
+table.price th {
+	border-bottom: 3px solid rgba(90, 86, 63, 1);
+	background-color: rgba(190, 188, 187, .5);
+}
+
+
+#showing {
+	background-color: rgba(255, 255, 255, .3);
+	box-shadow: inset 2px 2px 60px rgba(85, 85, 85, 0.87);
+}
+
+/* Original CSS code sourced and adapted for educational purposes: 
+	https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
+
+form, #ticket{
+	display:block;
+	width: 60%;
+	margin:2em auto;
+	text-align:left;
+	background-color: rgba(223, 223, 223, .9);
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+select, input{
+	text-align:left;
+	display:inline-block;
+	width:100%;
+	padding:5px 8px;
+	margin-top:5px;
+	border: 1px, solid, rgba(0, 0, 0, .8);
+	border-radius: 3px;
+}
+
+fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+form legend {
+	margin:auto;
+	font-size:113%;
+}
+
+#booking_title, #details_title{
+	padding-top: 1em;
+	font-size: 140%;
+}
+
+#form_seats, #customer_details {
+	font-size:140%;
+	padding: 1em;
+}
+
+input:invalid {
+  border:2px rgba(211, 19, 57, 0.6) solid;
+  background-color:rgba(211, 19, 57, 0.1);
+}
+
+
+#data_entered {
+    text-align: center;
+	color:red;
+	font-size: 80%;
+}
+
+#grand_total {
+	font-size: 120%;
+	text-align: right;
+}
+
+.movie_name {
+	font-size: 140%;
+	font-weight: bold;
+	text-align: left;
+}
+
+#grand_total {
+	font-weight: bold;
+	text-align:right;
+}
+
+#check_out {
+	color: black;
+}
+
+#input_details, .default {
+	display:block;
+	background-color: initial;
+	box-shadow: initial;
+}
+
+.time {
+	text-align: left;
+}
+
+.left, .right {
+	display: inline-block;
+	width: 40%;
+	padding: 0;
+	border: 0;
+	margin: 2px;;
+}
+
+.left {
+	text-align:left;
+}
+.right {
+	width: 58%;
+	text-align:right;
+}
+
+.individual {
+	width: 35%;
+	padding: 0;
+	border: 0;
+	margin: 2px;;
+}
+
+.each_ticket {
+	border-top-style: solid;
+}
